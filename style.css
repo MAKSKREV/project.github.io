@@ -1,0 +1,669 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.Intro {
+  height: 100vh;
+
+}
+
+.intro-image {
+  height: 60%;
+  background: url(https://media.discordapp.net/attachments/896756748331929643/1218295115903270963/logoshh.jpg?ex=660724be&is=65f4afbe&hm=9ac613ea9d6567aa660e2cb966c5468df38565dfc7ddc58c2c3bccf145eb79c3&=&format=webp) no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 60px;
+
+}
+
+
+.phone {
+  font-family: 'Marmelad', sans-serif;
+  font-size: 30px;
+  color: #A9224F;
+  text-align: right;
+  padding-top: 24%;
+  padding-right: 40px;
+
+}
+
+.foto123 {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.fotos {
+  width: 27%;
+  position: relative;
+
+  background-color: #5A3313;
+
+}
+
+.fotos:hover .foto-img {
+  transform: translate3d(-10px, -10px, 0px);
+
+}
+
+.fotos:hover .foto-img img {
+  opacity: .1;
+
+}
+
+.fotos:hover .about-text {
+  opacity: 1;
+
+}
+
+.foto-img {
+  background: linear-gradient(to bottom, #5A3313, #D4C6AF);
+  transition: transform .3s linear;
+
+}
+
+.foto-img img {
+  display: block;
+
+  transition: opacity .1s linear;
+
+}
+
+.about-text {
+  width: 100%;
+
+  font-size: 25px;
+
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 2;
+  transform: translate3d(0, -50%, 0);
+  opacity: 0;
+  transition: opacity .2s linear;
+
+
+}
+
+.poslednie {
+  width: 900px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+  box-shadow: 0 5px 10px #4d4343;
+}
+
+header .logo {
+
+  transition: 0.5s;
+
+}
+
+header .logo:hover {
+  transform: scale(1.2);
+
+}
+
+header nav ul li {
+  position: relative;
+  float: left;
+
+  z-index: 10;
+}
+
+header nav ul li a {
+  padding: 15px;
+  color: #A9224F;
+  font-size: 16px;
+  display: block;
+}
+
+header nav ul li a:hover {
+  background: #FFEBF1;
+  color: #A9224F;
+
+}
+
+nav ul li ul {
+  position: absolute;
+  left: 0;
+  width: 180px;
+  background: #fff;
+  display: none;
+
+
+}
+
+nav ul li:hover>ul {
+  display: initial;
+
+}
+
+/*main*/
+.slogan {
+  font-family: 'Shantell Sans', cursive;
+  font-size: 30px;
+}
+
+.slogann {
+  font-family: 'Marmelad', sans-serif;
+  font-size: 60px;
+
+
+}
+
+.section {
+  background: url(https://media.discordapp.net/attachments/896756748331929643/1218295317758476358/chokoo.jpg?ex=660724ee&is=65f4afee&hm=5623abf221e4930489807f1a836fedc5623ded34abdf91fe718543725fae4ddd&=&format=webp) no-repeat;
+  position: absolute;
+  height: 93%;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  top: 105%;
+  padding: 80px;
+
+}
+
+.section-slogan {
+  width: 100%;
+  color: #fff;
+  text-align: left;
+
+}
+
+.subslogan {
+  color: #fff;
+  text-align: right;
+  font-family: 'Shantell Sans', cursive;
+  font-size: 30px;
+  padding-top: 150px;
+
+
+}
+
+/*main3*/
+.slogan1 {
+  font-family: 'Marmelad', sans-serif;
+  font-size: 80px;
+  color: #5A3313;
+  position: absolute;
+  top: 210%;
+  left: 42%;
+
+
+}
+
+.emotions {
+  width: 50%;
+  position: relative;
+  margin-left: 20%;
+  justify-content: space-between;
+  margin-top: 150%;
+}
+
+.slogann1 {
+  font-family: 'Marmelad', sans-serif;
+  font-size: 40px;
+  color: #5A3313;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+
+
+}
+
+.section1 {
+  height: 900px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px;
+
+
+}
+
+.nnn {
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.foto {
+  display: flex;
+  width: 100%;
+height: 10%;
+  position: relative;
+
+  text-align: center;
+
+}
+
+.slogann12 {
+  font-family: 'Marmelad', sans-serif;
+  font-size: 30px;
+  color: #5A3313;
+  text-align: right;
+  margin-top: 100px;
+}
+
+.sslogan1 {
+  font-family: 'Marmelad', sans-serif;
+  font-size: 50px;
+  color: #5A3313;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+.ccontainer1 {
+  position: absolute;
+  height: 200%;
+  width: 100%;
+}
+
+.ssection-slogan1 {
+  height: 600px;
+  color: #5A3313;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+
+  text-align: left;
+
+  font-family: 'Marmelad', sans-serif;
+  font-size: 20px;
+
+}
+
+.sslogann1 {
+  font-family: 'Marmelad', sans-serif;
+  font-size: 25px;
+  color: #5A3313;
+  top: 70%;
+  left: 10%;
+  width: 500px;
+  position: absolute;
+
+}
+
+.sslogann11 {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+}
+
+.podpis {
+  position: absolute;
+  z-index: 9999;
+  height: 90%;
+  top: 305%;
+  left: -10%;
+}
+.foto2{
+  position: absolute;
+  width: 100%;
+}
+
+@media  (max-width:1250px) {
+  .foto123 {
+    width: 70%;
+    height: 80%;
+  }
+
+  #upper_cakes_el {
+    display: block;
+    width: 100%;
+    height: 35%;
+    z-index: 2;
+  }
+
+  .about-text {
+    left: -3%;
+    top: 50%;
+  }
+
+  .fotos {
+    width: 30%;
+    height: 20.5vw;
+    z-index: 1;
+  }
+  .intro-image{
+    width: 105%;
+    height: 70%;
+   
+  }
+  .poslednie{
+    width: 100%;
+    margin-left: 10%;
+  }
+  .foto0{
+    width: 20%;
+    position: absolute;
+    top: 35%;
+    left:60%;
+  }
+  .foto3{
+    width: 20%;
+    position: absolute;
+    top: 35%;
+    left:10%;
+  }
+  .slogan{
+    font-size: 20px;
+    position: absolute;
+    top: 5%;
+  }
+  .slogann{
+    font-size: 45px;
+    position: absolute;
+    top: 10%;
+
+  }
+
+.subslogan{
+
+  font-size: 20px;
+  position: absolute;
+  top: 68%;
+  left: 72%;
+  }
+  .poslednie{
+    width: 100%;
+    left: 20%;
+  }
+  .emotions{
+    margin-top: 250%;
+  }
+  .emotions img {
+    width: 100%;
+  }
+  .section{
+    height: 100%;
+    width: 105%;
+    top: 130%;
+  }
+  header{
+    width: 96%;
+  }
+  .slogan1{
+    top: 240%;
+    left: 35%;
+  }
+  .sslogann11 img{
+    width: 100%;
+
+  }
+  .sslogann1{
+    font-size: 20px;
+    left: 5%;
+  }
+  .podpis{
+    width: 50%;
+    top: 370%;
+    left: -5%;
+    height: 60%;
+  }
+}
+@media  (max-width:900px) {
+  header{
+    width: 100%;
+  }
+  .intro-image{
+    margin-left: 0%;
+    width: 105%;
+  }
+  .phone{
+    padding-top: 34%;
+  }
+  .emotions{
+    margin-top: 340%;
+    width: 60%;
+  }
+  .subslogan{
+    width: 50%;
+  position: absolute;
+left: 45%;
+top: 55%;
+    
+  }
+.sslogann11{
+  width: 35%;
+  left: 70%;
+}
+.slogann1{
+  font-size: 20px;
+}
+.podpis{
+  top: 380%;
+}
+header nav ul li a {
+  font-size: 13px ;
+  padding: 10px;
+  text-align: left;
+  
+}
+.slogan1{
+  font-size: 55px;
+  top: 230%;
+  
+}
+}
+@media  (max-width:681px) {
+  header nav ul li a {
+    font-size: 10px;
+  }
+  .phone{
+    font-size: 20px;
+    padding-top: 50%;
+  }
+  .emotions{
+    margin-top: 450%;
+    width: 70%;
+    margin-left: 20%;
+  }
+  .slogann1{
+    font-size: 20px;
+    width: 150%;
+
+    margin-left: -30%;
+  }
+  .sslogann1{
+    font-size: 16px;
+  width: 50%;
+  }
+  .sslogann11{
+    top: 60%;
+    width: 50%;
+    left: 55%;
+  }
+  .slogann12{
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: 30%;
+  }
+  .foto3{
+    width: 25%;
+  }
+  .foto0{
+    width: 25%;
+  }
+  .foto123 {
+    width: 70%;
+    height: 80%;
+  }
+
+  #upper_cakes_el {
+    display: block;
+    width: 100%;
+    height: 35%;
+    z-index: 2;
+  }
+
+  .about-text {
+    left: -3%;
+    top: 50%;
+    font-size: 18px;
+  }
+
+  .fotos {
+    width: 30%;
+    height: 20.5vw;
+    z-index: 1;
+  }
+
+
+
+  
+
+}
+@media  (max-width:590px) {
+  header nav ul li a {
+    font-size: 8px;
+    padding: 8px;
+  }
+  .emotions{
+    padding-top: 100%;
+  }
+  .slogann1{
+    font-size: 15px;
+    width: 150%;
+
+
+  }
+
+}
+@media  (max-width:435px) {
+  .phone{
+    padding-top: 87%;
+    
+  }
+  header{
+    width: 120%;
+
+  }
+  header nav ul li a {
+    font-size: 5px;
+    padding: 5px;
+  }
+  .foto123 {
+    width: 80%;
+    height: 80%;
+  }
+
+  #upper_cakes_el {
+    display: block;
+    width: 100%;
+    height: 35%;
+    z-index: 2;
+  }
+
+  .about-text {
+    left: -3%;
+    top: 50%;
+    font-size: 13px;
+  }
+
+  .fotos {
+    width: 30%;
+    height: 20.5vw;
+    z-index: 1;
+  }
+
+
+.section{
+  top: 120%;
+  height: 70%;
+}
+.slogan{
+  left: 5%;
+  font-size: 15px;
+}
+.slogann{
+  left: 5%;
+  font-size: 25px;
+}
+.slogan1{
+  font-size: 40px;
+  top: 200%;
+}
+.emotions{
+  margin-top: 550%;
+}
+.slogann12{
+  font-size: 15px;
+  left: 25%;
+  position: absolute;
+}
+.sslogan1{
+  position: absolute;
+  top: 30%;
+  font-size: 30px;
+}
+.sslogann1{
+  position: absolute;
+  top: 40%;
+  font-size: 15px;
+}
+.sslogann11{
+  top: 35%;
+}
+.podpis{
+  height: 30%;
+  top: 320%;
+}
+.ccontainer1{
+  height: 200%;
+}
+}
+@media  (max-width:370px) {
+  .emotions{
+    margin-top: 750%;
+  }
+  .sslogann1{
+    font-size: 10px;
+    top: 35%;
+  }
+  .sslogann11{
+    top: 32%;
+  }
+  .podpis{
+    height: 10%;
+    top: 315%;
+  }
+
+}
